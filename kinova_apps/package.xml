@@ -15,6 +15,7 @@
   <depend>moveit_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
+  <depend>control_msgs</depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 

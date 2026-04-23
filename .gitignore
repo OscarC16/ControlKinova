@@ -1,8 +1,13 @@
+# Archivos pesados o temporales
+*.zip
+*.rar
+*.log
+log/
 build/
 install/
-log/
-captures/
-*.zip
 __pycache__/
-.vscode/
-install_ros2.sh
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

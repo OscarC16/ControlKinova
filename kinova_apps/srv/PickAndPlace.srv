@@ -1,0 +1,18 @@
+# Request
+float64 x_a
+float64 y_a
+float64 z_a
+float64 roll_a
+float64 pitch_a
+float64 yaw_a
+
+float64 x_b
+float64 y_b
+float64 z_b
+float64 roll_b
+float64 pitch_b
+float64 yaw_b
+---
+# Response
+bool success
+string message

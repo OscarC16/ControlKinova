@@ -17,6 +17,8 @@ find_package(cv_bridge REQUIRED)
 # srvs
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MoveAndCapture.srv"
+  "srv/SixMoves.srv"
+  "srv/PickAndPlace.srv"
   DEPENDENCIES geometry_msgs sensor_msgs
 )
 
