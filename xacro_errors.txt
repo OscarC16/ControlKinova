@@ -1,0 +1,11 @@
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro:31: <xacro:if value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro:34: <xacro:if value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro:36: <param name="joint_commands_topic">${}</param>
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro:37: <param name="joint_states_topic">${}</param>
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:27: <xacro:if value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:29: <param name="joint_commands_topic">${}</param>
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:30: <param name="joint_states_topic">${}</param>
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:33: <xacro:if value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:74: <xacro:unless value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:82: <xacro:unless value="${}">
+Empty expression: /home/oscar/kinova_ws/src/ros2_kortex/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro:90: <xacro:unless value="${}">

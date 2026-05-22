@@ -14,26 +14,26 @@ class TestPickPlace(Node):
     def send_request(self):
         # Punto A (Pick - Donde esta el objeto)
         self.req.x_a = 0.4
-        self.req.y_a = 0.4 # Movido ligeramente a un lado
-        self.req.z_a = 0.4
+        self.req.y_a = 0.2
+        self.req.z_a = -0.2 # Altura de recogida (ajustada por offset de 15cm internamente)
         self.req.roll_a = 180.0
         self.req.pitch_a = 0.0
-        self.req.yaw_a = 90.0
+        self.req.yaw_a = 0.0
         
         # Punto B (Place - Donde dejar el objeto)
         self.req.x_b = -0.4
-        self.req.y_b = -0.4 # Movido al lado opuesto
-        self.req.z_b = 0.4
+        self.req.y_b = -0.4
+        self.req.z_b = 0.2 # Altura de descarga
         self.req.roll_b = 180.0
         self.req.pitch_b = 0.0
-        self.req.yaw_b = 90.0
+        self.req.yaw_b = 0.0
         
         return self.cli.call_async(self.req)
 
 def main():
     rclpy.init()
     test_node = TestPickPlace()
-    test_node.get_logger().info('Enviando solicitud Pick and Place de prueba...')
+    test_node.get_logger().info('Enviando solicitud Pick and Place con secuencia corregida...')
     future = test_node.send_request()
     
     rclpy.spin_until_future_complete(test_node, future)
